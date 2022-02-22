@@ -1,1 +1,0 @@
-# nisomahmudova.github.io
