@@ -10,6 +10,25 @@
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <style>
+      .insta {
+        color: #fff;
+        animation: flicker 1.5s infinite alternate;
+
+        text-shadow:
+          0 0 4px #fff,
+          0 0 11px #fff,
+          0 0 19px #fff,
+          0 0 40px #0fa,
+          0 0 80px #0fa,
+          0 0 90px #0fa,
+          0 0 100px #0fa,
+          0 0 150px #0fa;
+      }
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {       
+        text-shadow: none;
+      }
+    </style>
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -45,7 +64,7 @@
 <div class="profile-page">
   <div class="wrapper">
     <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/fon.jpg')"></div>
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/niso.jpg" alt="Image"/></a></div>
@@ -57,16 +76,16 @@
         <div class="container">
           <div class="button-container">
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/niso.jamshedzoda.7" rel="tooltip" title="Follow me on Facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
+              <b><i class="fa fa-facebook insta"></i></b>
+            </a/>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/niso-mahmudova-0995a6211" rel="tooltip" title="Follow me on Twitter">
-              <i class="fa fa-linkedin"></i>
+              <i  class="fa fa-linkedin insta"></i>
             </a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.behance.net/nisomahmudova" rel="tooltip" title="Follow me on Google+">
-              <i class="fa fa-behance"></i>
+              <i class="fa fa-behance insta"></i>
             </a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://instagram.com/nisonotion?utm_medium=copy_link" rel="tooltip" title="Follow me on Instagram">
-              <i class="fa fa-instagram"></i>
+              <i class="fa fa-instagram insta"></i>
             </a>
           </div>
         </div>
