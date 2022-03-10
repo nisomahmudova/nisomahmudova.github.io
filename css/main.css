@@ -5287,3 +5287,6 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+.card-padding-top{
+  padding-top: 60px;
+}
